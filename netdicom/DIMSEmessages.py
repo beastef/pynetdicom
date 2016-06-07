@@ -101,7 +101,7 @@ class DIMSEMessage:
         self.EncodedDataSet = None
         self.DataSet = None
         self.encoded_command_set = ''
-        self.ID = id
+        self.ID = None
 
         self.ts = ImplicitVRLittleEndian  # imposed by standard.
         if self.__class__ != DIMSEMessage:
